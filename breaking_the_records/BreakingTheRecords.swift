@@ -4,9 +4,35 @@ import Foundation
  * Complete the breakingRecords function below.
  */
 func breakingRecords(score: [Int]) -> [Int] {
-    /*
-     * Write your code here.
-     */
+    
+    var highestScoreCount: Int = -1
+    var lowestScoreCount: Int = -1
+    
+    var highestScore: Int!{
+        didSet{
+            highestScoreCount += 1
+        }
+    }
+    var lowestScore: Int!{
+        didSet{
+            lowestScoreCount += 1
+        }
+    }
+    
+    for (index, point) in score.enumerated() {
+        if index == 0 {
+            highestScore = point
+            lowestScore = point
+        }
+        if highestScore < point {
+            highestScore = point
+        }
+        if lowestScore > point {
+            lowestScore = point
+        }
+    }
+    
+    return [highestScoreCount, lowestScoreCount]
 
 }
 
