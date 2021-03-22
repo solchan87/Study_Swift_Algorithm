@@ -12,7 +12,7 @@ func countApplesAndOranges(s: Int, t: Int, a: Int, b: Int, apples: [Int], orange
     
     for orange in oranges {
         let orangeDistance = b + orange
-        if checkDistance(s: s, t: t, distance: orangeDistance) { droppedOranges += 1}
+        if checkDistance(s: s, t: t, distance: orangeDistance) { droppedOranges += 1 }
     }
     
     print(droppedApples)
