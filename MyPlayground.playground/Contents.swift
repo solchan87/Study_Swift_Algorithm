@@ -41,4 +41,4 @@ func solution4(_ genres:[String], _ plays:[Int]) -> [Int] {
   return [12]
 }
 
-solution3(["classic", "pop", "classic", "classic", "pop"], [500, 600, 150, 800, 2500])
+solution4(["classic", "pop", "classic", "classic", "pop"], [500, 600, 150, 800, 2500])
