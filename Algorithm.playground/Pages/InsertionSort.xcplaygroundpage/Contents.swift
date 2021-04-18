@@ -23,10 +23,10 @@ func insertionSort( alist: inout [Int]){
 for i in 1...10 {
     
     var myRandomList: [Int] = makeList(n: i * 100)
-    var start = NSDate()
+    let start = NSDate()
     insertionSort(alist: &myRandomList)
-    var end = NSDate()
-    var timeInterval: Double = end.timeIntervalSince(start as Date)
+    let end = NSDate()
+    let timeInterval: Double = end.timeIntervalSince(start as Date)
     
     print("Array size = \(myRandomList.count), time = \(timeInterval) / sec")
 }
