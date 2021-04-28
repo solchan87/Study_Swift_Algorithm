@@ -3,5 +3,8 @@
     <pages>
         <page name='InsertionSort'/>
         <page name='MergeSort'/>
+        <page name='BalancedBrackets'/>
+        <page name='AppleAndOrange'/>
+        <page name='Album'/>
     </pages>
 </playground>
