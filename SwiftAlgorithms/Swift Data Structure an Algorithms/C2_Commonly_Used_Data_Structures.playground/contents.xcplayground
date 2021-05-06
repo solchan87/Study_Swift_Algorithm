@@ -3,5 +3,9 @@
     <pages>
         <page name='Arrays'/>
         <page name='Dictionaries'/>
+        <page name='Sets'/>
+        <page name='Tuples'/>
+        <page name='Subscripting'/>
+        <page name='Mutability'/>
     </pages>
 </playground>

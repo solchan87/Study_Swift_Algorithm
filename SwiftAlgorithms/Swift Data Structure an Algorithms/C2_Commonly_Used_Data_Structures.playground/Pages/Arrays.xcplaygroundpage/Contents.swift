@@ -29,7 +29,7 @@ intArray[5]
 intArray[2..<5]
 
 for element in intArray {
-    print(element)
+  print(element)
 }
 
 intArray.contains(55)
