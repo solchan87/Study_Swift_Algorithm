@@ -78,7 +78,10 @@ extension Particle{
 }
 
 var aURL = NSURL(string: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Quark_structure_pion.svg/2000px-Quark_structure_pion.svg.png")
-let anImage = UIImage(contentsOf: aURL! as URL)
+
+let data = try Data(contentsOf: aURL! as URL)
+
+let anImage = UIImage(data: data)
 
 var quarkParticle = Particle(name: "Quark", symbol: "q", statistics: "Fermionic", image: anImage!)
 let quarkImage = quarkParticle.particalAsImage()
