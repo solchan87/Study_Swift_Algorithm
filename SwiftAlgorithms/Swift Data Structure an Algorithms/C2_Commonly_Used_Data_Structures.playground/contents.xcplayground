@@ -7,5 +7,6 @@
         <page name='Tuples'/>
         <page name='Subscripting'/>
         <page name='Mutability'/>
+        <page name='Interoperability'/>
     </pages>
 </playground>

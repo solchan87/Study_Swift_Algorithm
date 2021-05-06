@@ -13,7 +13,6 @@ print(errorCode.errorCode)
 
 func getPartnerList() -> (statusCode:Int, description:String, metaData:(partnerStatusCode:Int, partnerErrorMessage:String, parterTraceId:String)) {
   
-  //... some error occurred
   return (503, "Service Unavailable", (32323, "System is down for maintainance until 2015-11-05T03:30:00+00:00", "5A953D9C-7781-427C-BC00-257B2EB98426"))
 }
 
