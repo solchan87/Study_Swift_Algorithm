@@ -8,5 +8,7 @@
         <page name='Subscripting'/>
         <page name='Mutability'/>
         <page name='Interoperability'/>
+        <page name='Bridging Collection Classes'/>
+        <page name='Protocols'/>
     </pages>
 </playground>
