@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		E2311DEB264190DC0068D4EB /* C1_Walking_Across_The_Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = C1_Walking_Across_The_Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E2311DF2264192060068D4EB /* C2_Commonly_Used_Data_Structures.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = C2_Commonly_Used_Data_Structures.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E256FD552646D5580072D52B /* C3_Standing_On_The_Shoulders_Of_Giants.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = C3_Standing_On_The_Shoulders_Of_Giants.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -24,6 +25,7 @@
 			children = (
 				E2311DEB264190DC0068D4EB /* C1_Walking_Across_The_Playground.playground */,
 				E2311DF2264192060068D4EB /* C2_Commonly_Used_Data_Structures.playground */,
+				E256FD552646D5580072D52B /* C3_Standing_On_The_Shoulders_Of_Giants.playground */,
 			);
 			path = "Swift Data Structure an Algorithms";
 			sourceTree = "<group>";
