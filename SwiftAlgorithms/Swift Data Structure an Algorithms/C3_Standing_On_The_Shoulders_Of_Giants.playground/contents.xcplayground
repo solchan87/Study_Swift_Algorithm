@@ -3,5 +3,8 @@
     <pages>
         <page name='Stacks'/>
         <page name='Circular Buffers'/>
+        <page name='Queues'/>
+        <page name='Priority Queues'/>
+        <page name='Stack Lists'/>
     </pages>
 </playground>
