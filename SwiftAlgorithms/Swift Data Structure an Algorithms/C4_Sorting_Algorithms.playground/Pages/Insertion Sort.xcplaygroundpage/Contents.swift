@@ -1,11 +1,16 @@
 import Foundation
 
+
+// 비교 연산자 사용이 가능한 Comparable을 부합하는 제네릭 함수를 받음
+// inout 매개변수를 통해 Call by Reference(메모리 주소를 전달?)로 변수 반환
 func insertionSort<T: Comparable>(_ list: inout [T]){
   
+  // 1개의 리스트는 반환
   if list.count <= 1 {
     return
   }
   
+  // 1번째 index부터 반환
   for i in 1..<list.count {
     
     let x = list[i]
