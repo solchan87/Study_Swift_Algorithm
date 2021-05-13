@@ -4,5 +4,7 @@
         <page name='Insertion Sort'/>
         <page name='Merge Sort - Array'/>
         <page name='Merge Sort - Linked List'/>
+        <page name='Quick Sort Lomuto Partioning Scheme'/>
+        <page name='Quick Sort Hoare Partitioning Scheme'/>
     </pages>
 </playground>
