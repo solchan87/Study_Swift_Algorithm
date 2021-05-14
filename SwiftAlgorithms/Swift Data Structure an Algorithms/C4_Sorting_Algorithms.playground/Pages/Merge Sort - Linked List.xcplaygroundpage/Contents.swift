@@ -153,7 +153,7 @@ var totalSortTime: [String : Double] = .init()
 // MARK: large-random-list
 list = makeList(n: largeSize)
 
-startSort = NSDate.timeIntervalSinceReferenceDate
+startSort = Date.timeIntervalSinceReferenceDate
 mergeSort(list: &list)
 totalSortTime["large-random-list"] = Date.timeIntervalSinceReferenceDate - startSort
 
@@ -164,7 +164,7 @@ totalSortTime
 // MARK: large-sorted-list
 list = makeList(n: largeSize, sorted: true)
 
-startSort = NSDate.timeIntervalSinceReferenceDate
+startSort = Date.timeIntervalSinceReferenceDate
 mergeSort(list: &list)
 totalSortTime["large-sorted-list"] = Date.timeIntervalSinceReferenceDate - startSort
 
@@ -175,7 +175,7 @@ totalSortTime
 // MARK: large-reverse-sorted-list
 list = makeList(n: largeSize, sorted: false, reverseSorted: true)
 
-startSort = NSDate.timeIntervalSinceReferenceDate
+startSort = Date.timeIntervalSinceReferenceDate
 mergeSort(list: &list)
 totalSortTime["large-reverse-sorted-list"] = Date.timeIntervalSinceReferenceDate - startSort
 
