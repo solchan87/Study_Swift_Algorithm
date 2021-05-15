@@ -15,16 +15,16 @@ func partition<T: Comparable>(_ list: inout [T], lo: Int, hi: Int) -> Int {
   var i = lo
   for j in lo..<hi {
     if list[j] <= pivot {
-      swap(&list, i, j)
+      list.swapAt(i, j)
       i += 1
     }
   }
   
-  swap(&list, i, hi)
+  list.swapAt(i, hi)
   return i
 }
 
-var arr = makeArray(n: 11)
+var arr = makeArray(n: 1000)
 
 arr
 

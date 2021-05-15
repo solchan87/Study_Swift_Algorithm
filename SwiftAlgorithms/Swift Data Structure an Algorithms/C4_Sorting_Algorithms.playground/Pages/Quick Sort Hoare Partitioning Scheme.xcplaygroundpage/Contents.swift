@@ -6,7 +6,6 @@ func quickSort<T: Comparable>(_ list: inout [T], lo: Int, hi: Int) {
     let pivot = partition(&list, lo: lo, hi: hi)
     quickSort(&list, lo: lo, hi: pivot)
     quickSort(&list, lo: pivot + 1, hi: hi)
-    
   }
 }
 
@@ -25,7 +24,7 @@ private func partition<T: Comparable>(_ list: inout [T], lo: Int, hi: Int) -> In
     if i >= j {
       return j
     }
-    swap(&list[i], &list[j])
+    list.swapAt(i, j)
   }
 }
 

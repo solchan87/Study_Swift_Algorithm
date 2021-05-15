@@ -1,6 +1,5 @@
 import Foundation
 
-
 public struct ArrayStack<T> {
     
     fileprivate var elements = [T]()
@@ -93,7 +92,6 @@ myStackFromStack.push(element: 55)
 
 myStack.push(element: 70)
 myStack.push(element: 10)
-
 
 for el in myStack {
     print(el)
