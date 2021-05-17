@@ -13,12 +13,14 @@
 		E256FD5726497DE00072D52B /* C4_Sorting_Algorithms.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = C4_Sorting_Algorithms.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E275321F264EB5AB0022658E /* Quiz.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Quiz.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E2753220264FFCA30022658E /* C5_Trees.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = C5_Trees.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E29E11082652B934000089D8 /* Temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		E2311DC42641904D0068D4EB = {
 			isa = PBXGroup;
 			children = (
+				E29E11072652B912000089D8 /* Algorithms */,
 				E275321E264EB5940022658E /* Quiz */,
 				E2311DEA2641905F0068D4EB /* Swift Data Structure an Algorithms */,
 			);
@@ -42,6 +44,14 @@
 				E275321F264EB5AB0022658E /* Quiz.playground */,
 			);
 			path = Quiz;
+			sourceTree = "<group>";
+		};
+		E29E11072652B912000089D8 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				E29E11082652B934000089D8 /* Temp.swift */,
+			);
+			path = Algorithms;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
