@@ -14,6 +14,7 @@
 		E275321F264EB5AB0022658E /* Quiz.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Quiz.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E2753220264FFCA30022658E /* C5_Trees.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = C5_Trees.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E29E11082652B934000089D8 /* Temp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temp.swift; sourceTree = "<group>"; };
+		E2FF00502657FFE1004BBAA6 /* C6_Advanced_Search_Methods.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = C6_Advanced_Search_Methods.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -34,6 +35,7 @@
 				E256FD552646D5580072D52B /* C3_Standing_On_The_Shoulders_Of_Giants.playground */,
 				E256FD5726497DE00072D52B /* C4_Sorting_Algorithms.playground */,
 				E2753220264FFCA30022658E /* C5_Trees.playground */,
+				E2FF00502657FFE1004BBAA6 /* C6_Advanced_Search_Methods.playground */,
 			);
 			path = "Swift Data Structure an Algorithms";
 			sourceTree = "<group>";
