@@ -3,5 +3,6 @@
     <pages>
         <page name='StringSearch'/>
         <page name='AVLTree'/>
+        <page name='RedBlackTree'/>
     </pages>
 </playground>
