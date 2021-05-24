@@ -16,8 +16,7 @@ rootNode.insertNodeFromRoot(value: 2)
 //: Print the tree
 RedBlackTreeNode.printTree(nodes: [rootNode])
 
-let redBlackTree = RedBlackTree<Double>()
-
+let redBlackTree = RedBlackTree<Int>()
 
 redBlackTree.insert(key: 10)
 redBlackTree.insert(key: 12)
@@ -29,6 +28,5 @@ redBlackTree.insert(key: 11)
 redBlackTree.insert(key: 32)
 redBlackTree.insert(key: 4)
 redBlackTree.insert(key: 2)
-
 
 redBlackTree.verify()
