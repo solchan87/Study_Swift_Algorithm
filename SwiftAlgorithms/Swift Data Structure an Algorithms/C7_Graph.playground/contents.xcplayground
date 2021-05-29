@@ -3,6 +3,6 @@
     <pages>
         <page name='AdjacencyList'/>
         <page name='BFS'/>
-        <page name='Untitled Page 2'/>
+        <page name='Dijkstra'/>
     </pages>
 </playground>
