@@ -4,5 +4,6 @@
         <page name='AdjacencyList'/>
         <page name='BFS'/>
         <page name='Dijkstra'/>
+        <page name='MST'/>
     </pages>
 </playground>
