@@ -6,7 +6,7 @@ let text = "2359023141526739921"
 let pattern = "31415"
 //let text = "asdjasidjasodoasdolasd"
 //let pattern = "idjas"
-let modulo = 13
+let modulo = 17
 let base = 10
 StringSearch.rabinKarpNumbers(search: pattern, in: text, modulo: modulo, base: base)
 

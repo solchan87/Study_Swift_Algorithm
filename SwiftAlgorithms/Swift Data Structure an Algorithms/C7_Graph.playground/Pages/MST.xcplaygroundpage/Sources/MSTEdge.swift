@@ -1,6 +1,6 @@
 import Foundation
 
-public class MSTEdge<T:Equatable & Hashable>:Equatable {
+public class MSTEdge<T:Hashable> {
     public var from:MSTNode<T>
     public var to:MSTNode<T>
     public var weight:Double
@@ -14,7 +14,7 @@ public class MSTEdge<T:Equatable & Hashable>:Equatable {
     }
 }
 
-public func == <T: Equatable> (lhs: MSTEdge<T>, rhs: MSTEdge<T>) -> Bool {
+public func == <T: Hashable> (lhs: MSTEdge<T>, rhs: MSTEdge<T>) -> Bool {
     guard lhs.from.value == rhs.from.value else {
         return false
     }

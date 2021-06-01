@@ -1,6 +1,6 @@
 import Foundation
 
-public class DijkstraGraph<T:Hashable & Equatable> {
+public class DijkstraGraph<T:Hashable> {
     public var nodes:[DijkstraNode<T>]
     
     public init(nodes:[DijkstraNode<T>]) {

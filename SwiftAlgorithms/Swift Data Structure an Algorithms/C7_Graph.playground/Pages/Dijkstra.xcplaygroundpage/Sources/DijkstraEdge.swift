@@ -1,6 +1,6 @@
 import Foundation
 
-public class DijkstraEdge<T:Equatable & Hashable>:Equatable {
+public class DijkstraEdge<T:Hashable> {
     public var from:DijkstraNode<T>
     public var to:DijkstraNode<T>
     public var weight:Double
@@ -14,7 +14,7 @@ public class DijkstraEdge<T:Equatable & Hashable>:Equatable {
     }
 }
 
-public func == <T: Equatable> (lhs: DijkstraEdge<T>, rhs: DijkstraEdge<T>) -> Bool {
+public func == <T: Hashable> (lhs: DijkstraEdge<T>, rhs: DijkstraEdge<T>) -> Bool {
     guard lhs.from.value == rhs.from.value else {
         return false
     }

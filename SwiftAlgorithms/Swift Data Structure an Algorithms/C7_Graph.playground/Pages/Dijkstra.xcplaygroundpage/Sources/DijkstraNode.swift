@@ -1,6 +1,6 @@
 import Foundation
 
-public class DijkstraNode<T:Equatable & Hashable>:Equatable {
+public class DijkstraNode<T:Hashable> {
     public var value:T
     public var edges:[DijkstraEdge<T>]
     public var visited:Bool

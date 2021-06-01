@@ -1,6 +1,6 @@
 import Foundation
 
-public class MSTNode<T:Equatable & Hashable> {
+public class MSTNode<T:Hashable> {
     
     public var value:T
     public var edges:[MSTEdge<T>]

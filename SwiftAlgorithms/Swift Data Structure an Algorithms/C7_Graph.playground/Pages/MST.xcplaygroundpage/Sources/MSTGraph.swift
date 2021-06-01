@@ -1,6 +1,6 @@
 import Foundation
 
-public class MSTGraph<T:Hashable & Equatable> {
+public class MSTGraph<T:Hashable> {
     public var nodes:[MSTNode<T>]
     
     public init(nodes:[MSTNode<T>]) {

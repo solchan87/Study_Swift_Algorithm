@@ -2,5 +2,10 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/tom/Study/Study_Swift_Algorithm/SwiftAlgorithms/Swift%20Data%20Structure%20an%20Algorithms/C7_Graph.playground/Pages/AdjacencyList.xcplaygroundpage#CharacterRangeLen=20&amp;CharacterRangeLoc=484&amp;EndingColumnNumber=0&amp;EndingLineNumber=14&amp;StartingColumnNumber=1&amp;StartingLineNumber=13&amp;Timestamp=644239756.060027"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
